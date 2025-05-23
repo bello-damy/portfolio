@@ -13372,9 +13372,16 @@ pre .code {
 
 
 /* My styling */
+
+/*about me skill section*/
 .skillbtn button {
   border: solid 1.5px var(--primary);
   background-color: var(--white);
   font-weight: 250;
   margin: 3px 3px 3px 0px;
+  cursor: text;
+}
+
+.skillbtn button:focus {
+  outline: none;
 }
