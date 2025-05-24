@@ -51,3 +51,25 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+document.getElementById('toggleHireBtn').addEventListener('click', function () {
+    var contactBtn = document.getElementById('phoneNumBtn');
+
+    if (contactBtn.style.display === 'none' || contactBtn.style.display === '') {
+        contactBtn.style.display = 'block'
+    } else {
+        contactBtn.style.display = 'none';
+    }
+});
+
+document.getElementById('phoneNumBtn').addEventListener('click', function () {
+    var phoneNumber = this.textContent; //get phone number from button
+
+    navigator.clipboard.writeText(phoneNumber) //copy to clipboard
+        .then(function () {
+            alert('Phone number copied');
+        })
+        .catch(function (err) {
+            console.error('Could not copy text: ; err')
+        })
+});
