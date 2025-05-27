@@ -13341,6 +13341,21 @@ pre .code {
     margin: auto;
     margin-bottom: 20px;
   }
+
+  #mobile-screen {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hire-btn-container {
+    display: flex;
+    align-items: center;
+  }
+
+  #toggleHireBtn {
+    display: flex;
+    margin-left: 220px;
+  }
 }
 
 /* sections */
@@ -13387,12 +13402,22 @@ pre .code {
 }
 
 #phoneNumBtn {
-  margin: 8px 8px 8px 0px;
-  border: 8px 8px 8px 0px;
+  margin: 0px 8px 0px 0px;
+  border: 0px 8px 0px 0px;
   display: none;
 }
 
 #success-message {
   padding: 8px 8px 8px 20px;
   border-radius: 8px;
+}
+
+.hire-btn-container {
+  display: flex;
+  align-items: center;
+}
+
+#toggleHireBtn {
+  border-right: 12px;
+  margin-right: 12px;
 }
