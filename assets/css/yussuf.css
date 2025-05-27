@@ -13391,3 +13391,8 @@ pre .code {
   border: 8px 8px 8px 0px;
   display: none;
 }
+
+#success-message {
+  padding: 8px 8px 8px 20px;
+  border-radius: 8px;
+}
