@@ -13177,6 +13177,19 @@ pre .code {
   .footer .social-links {
     margin-top: 15px;
   }
+
+  #mobile-screen {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hire-btn-container {
+    align-items: center;
+  }
+
+  #toggleHireBtn {
+    margin-left: 220px;
+  }
 }
 
 .header {
@@ -13291,6 +13304,19 @@ pre .code {
   .header-content {
     padding-left: calc(100% / 5) !important;
   }
+
+  #mobile-screen {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hire-btn-container {
+    align-items: center;
+  }
+
+  #toggleHireBtn {
+    margin-left: 220px;
+  }
 }
 
 .about {
@@ -13348,12 +13374,10 @@ pre .code {
   }
 
   .hire-btn-container {
-    display: flex;
     align-items: center;
   }
 
   #toggleHireBtn {
-    display: flex;
     margin-left: 220px;
   }
 }
@@ -13420,4 +13444,60 @@ pre .code {
 #toggleHireBtn {
   border-right: 12px;
   margin-right: 12px;
+}
+
+
+
+@media (max-width: 520px) {
+
+  #toggleHireBtn {
+    margin-left: 200px;
+  }
+}
+
+
+@media (max-width: 500px) {
+
+  .hire-btn-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: auto;
+    align-items: auto;
+    text-align: auto;
+  }
+
+  #toggleHireBtn {
+    margin: 0px 0px 0px 150px;
+  }
+
+  #phoneNumBtn {
+    margin: 0px 0px 8px 110px;
+  }
+
+
+
+  .skillbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .skillbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 576px) {
+  .skillbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
