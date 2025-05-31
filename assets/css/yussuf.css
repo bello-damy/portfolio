@@ -13496,7 +13496,7 @@ pre .code {
 @media (min-width: 576px) {
   .skillbtn {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-wrap: wrap;
   }
