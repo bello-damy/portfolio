@@ -3,7 +3,7 @@
 [![Live Site](https://img.shields.io/badge/Live%20Site-yussufbello.com-blue?style=for-the-badge&logo=google-chrome)](https://yussufbello.com)
 [![Email](https://img.shields.io/badge/Contact-dbello447@gmail.com-orange?style=for-the-badge&logo=gmail)](mailto:dbello447@gmail.com)
 
-![Screenshot preview of Yussuf Bello's portfolio website](./public/assets/imgs/ybportfolioshot.png)
+![Screenshot preview of Yussuf Bello's portfolio website](./assets/imgs/ybportfolioshot.png)
 
 A clean, modern personal portfolio built to showcase Yussuf Bello’s skills, projects, and professional background as a Front-end Web Developer.
 
