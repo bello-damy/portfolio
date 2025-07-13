@@ -96,8 +96,8 @@ npm run start
 Create a `.env` file and configure the following as needed:
 
 ```env
-VITE_API_URL=https://your-api-url.com
-VITE_API_KEY=yourapikey123
+VITE_API_URL=https://api-url.com
+VITE_API_KEY=apikey123
 ```
 
 ---

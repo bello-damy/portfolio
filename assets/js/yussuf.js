@@ -1,6 +1,6 @@
 /*!
 =========================================================
-* Meyawo Landing page
+* Yussuf Landing page
 =========================================================
 
 * Copyright: 2025 Yussuf Bello (https://yussufbello.com)
